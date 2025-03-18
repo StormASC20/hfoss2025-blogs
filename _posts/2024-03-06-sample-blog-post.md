@@ -5,11 +5,8 @@ layout: post
 # and specify a custom title
 # title:  "Sample Blog Post"
 
-# Uncomment only one of the below categories
 categories: 
-#- Bug Fix
-#- Contribution
-
+- Contribution
 
 # Enter your name below
 author: Adrian Edwards
