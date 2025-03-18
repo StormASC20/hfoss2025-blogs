@@ -1,0 +1,19 @@
+<style>
+	.permalink {
+		font-size: .5em;
+	}
+</style>
+
+{% if include.filter-by == "category" %}
+	{% assign group = site.categories %}
+	{% for item in group %}
+		{% assign item_name = item | first %}
+
+		<h2 id="{{item_name | downcase}}">{{item_name}}<span class="permalink">(<a href="#{{item_name | downcase}}">permalink</a>)</span></h2>
+		
+		{% assign postlist = group[item_name] %}
+		{% include postshowcase.html posts=postlist %}
+
+	{% endfor %}
+
+{% endif %}
