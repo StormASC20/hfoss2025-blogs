@@ -3,7 +3,7 @@
 # Create development environment using a Docker container
 #
 
-JEKYLL_VERSION=3.8
+JEKYLL_VERSION=latest
 DOCKER_BINARY=""
 
 if command -v docker &>/dev/null; then
@@ -25,7 +25,6 @@ fi
 # Serve the site via Docker and update site when files changed in repo
 ${DOCKER_BINARY} run --rm \
     -p 4000:4000 \
-    -v "$PWD:/srv/jekyll:Z" \
+    -v "$PWD:/site:Z" \
     -v "$PWD/.bundle-cache:/usr/local/bundle" \
-    -it "jekyll/jekyll:$JEKYLL_VERSION" \
-    sh -c "jekyll serve --watch"
+    -it "bretfisher/jekyll-serve:$JEKYLL_VERSION" 
