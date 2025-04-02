@@ -8,7 +8,7 @@ categories:
 author: Cole Stowell
 ---
 
-Its really easy to contribute to GNOME! Here's how I did it.
+It's easy to contribute to GNOME! Here's how I did it.
 
 ## The GNOME Community
 
@@ -38,7 +38,7 @@ the sheer quality and quantity of documentation made it so I never had to.
 
 ## Finding an issue
 
-All of GNOME's projects have a pretty active Issue Tracker with all kinds of issues. 
+GNOME's projects have a pretty active Issue Tracker with all kinds of issues. 
 
 Most of them are pretty good about adding the `Newcomer` tag to the issues that
 new contributors like myself can get started with some quick contributions.
@@ -47,30 +47,30 @@ new contributors like myself can get started with some quick contributions.
 
 I picked [issue #3800](https://gitlab.gnome.org/GNOME/nautilus/-/issues/3800) 
 from Nautilus, GNOME's file manager, to solve because it looks pretty simple:
-you can bookmark a folder more than once.
+You can bookmark a folder more than once.
 
 
 ## Fixing the Bug
 
-The fix was pretty straight forward: check to see if the bookmark exists,
+The fix was pretty straightforward: check to see if the bookmark exists,
 and if it does, return without adding to the list.
 
 Since the bookmark list is a `GList` internally, I use the `g_list_find_custom`
 function to iterate over the list and "accept" a bookmark if its location
 matches the new bookmark's location. If `g_list_find_custom` returns NULL,
 then I know none of the bookmarks matched, so we should add it. Otherwise,
-if its not NULL, it must have already been added so we should return.
+if it's not NULL, it must have already been added so we should return.
 
 I'm not super familiar with GLib or Nautilus's code base so when I made 
 my initial PR, I asked for feedback on my function usage. One of the
-maintainers responded saying I should use `nautilus_bookmark_list_contains`,
+maintainers responded by saying I should use `nautilus_bookmark_list_contains`,
 which hilariously does almost exactly what I implemented.
 
 ![Review](/hfoss2025-blogs/assets/images/costowell/Review.png)
 
 I guess I know GLib better than I thought!
 
-Anyways, I adjusted my code, requested a review, and it got merged! Hooray!
+Anyway, I adjusted my code, requested a review, and it got merged! Hooray!
 
 ![PR](/hfoss2025-blogs/assets/images/costowell/PR.png)
 
