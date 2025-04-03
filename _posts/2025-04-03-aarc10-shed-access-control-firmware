@@ -12,7 +12,7 @@ author: Aaron Chan
 
 For my contribution, I decided to help the RIT SHED Makerspace with their access control firmware. I decided to do this because I am a frequent user of the RIT SHED facilities as a member of RIT Launch Initiative. I saw an opportunity to help improve the custom devices the SHED uses to ensure only authorized and trained users operate the SHED's equipment.
 
-The project is currently maintained by SHED employees, but is open-sourced under a Creative Commons license. However, since it is lesser known that some of SHED's software (and hardware) is open-sourced, there is little outside attention given to it. The reason I knew about it was because I the person that mostly maintains these projects, Jim Heaney. Therefore, I thought it would also be a good opportunity to work with him towards improving the software since he mostly comes from a hardware background. After getting approval from my TA Adrian, I decided to start contributing with a massive overhaul to the access control firmware.
+The project is currently maintained by SHED employees, but is open-sourced under a Creative Commons license. However, since it is lesser known that some of SHED's software (and hardware) is open-sourced, there is little outside attention given to it. The reason I knew about it was because I the person that mostly maintains these projects, Jim Heaney who mainly develops open-source hardware. Therefore, I thought it would also be a good opportunity to work with him towards improving the software since he mostly comes from a hardware background. After getting approval from my TA Adrian, I decided to start contributing with a massive overhaul to the access control firmware.
 
 ## Issues Found
 Since Jim mainly specializes in hardware, there were several potential issues I identified before starting. The following include
@@ -100,5 +100,10 @@ should instead be
 memset(uid, 0, sizeof(uid));
 ```
 
-## Community Interaction
-Unfortunately, due to lack of access to hardware I have been unable to personally test my changes on the hardware itself. However, part of the purpose of the assignment was to interact with a community and since this project doesn't really have many external contributors, I was able to work with Jim in person. This also allowed me to teach Jim new software techniques to incorporate into his future work as well.
+## Blockers
+Unfortunately, due to lack of access to hardware I have been unable to personally test my changes on the hardware itself. However, part of the purpose of the assignment was to interact with a community and since this project doesn't really have many external contributors, I was able to work closely with Jim in person. This also allowed me to teach Jim new software techniques to incorporate into his future work as well. Testing and deployment has been blocked for a short time period at the time of writing since Jim is now on a business trip. When he returns, we will continue incorporating these changes into production which will then see usage by all members of the RIT community that uses SHED resources.
+
+Since SHED software projects are somewhat informal, there is little documentation on setting up for development and navigating the codebase too. However, the codebase wasn't too big for this to be an issue and Jim was accessible through Slack and in person which helped resolve any questions or issues I have had.
+
+## Conclusion
+Overall, it was a fun project to work on. I had the opportunity to work closely with a primary contributor of an open-source project and I know my contributions will directly impact the RIT community overall. I also hope to raise awareness that there are small open-source RIT projects that could benefit from even small contributions and they can be easier to work with in some cases compared to working with larger open-source projects which may have harder accessibility to primary contributors of larger projects and more bureacracy for getting changes through.
