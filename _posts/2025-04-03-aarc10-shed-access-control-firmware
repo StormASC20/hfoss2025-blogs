@@ -16,6 +16,9 @@ The project is currently maintained mainly by SHED employees, but is open-source
 
 The project itself has no issue tracking and little documentation, so most students that have taken HFOSS will most likely not want to contribute to this project if they only gave it a quick glance. However, the ease of accessibility to other contributors and simple codebase should not be discounted. If I was to give a CommArch presentation on this community though, I would still recommend it regardless of the aformentioned issues. I think this project and similar SHED projects are still in its infancy when it comes to open-source, but because the projects are simple enough and you can easily work with most RIT affiliated individuals, these projects can easily be onboarded onto. I hope this blog post might motivate other individuals to participate as well in the future.
 
+![Access control device not accepting my ID card](/hfoss2025-blogs/assets/images/aarc10/access_control_not_working.jpg)
+*One of the access control devices wasn't accepting me and my friend's ID cards despite having the approved trainings. Turns out the reader for that station in the Textiles and Electronics room in the SHED was faulting out throughout the day.*
+
 ## Finding Issues
 SHED software projects are relatively informal and there is no ticket tracking system. Instead I looked throughout the codebase for issues I could find. Since Jim mainly specializes in hardware, there were several potential issues I was able to identify quickly before starting. The following include
 
@@ -106,6 +109,9 @@ memset(uid, 0, sizeof(uid));
 Unfortunately, due to lack of access to hardware I have been unable to personally test my changes on the hardware itself. However, part of the purpose of the assignment was to interact with a community and since this project doesn't really have many external contributors, I was able to work closely with Jim in person. This also allowed me to teach Jim new software techniques to incorporate into his future work as well. Testing and deployment has been blocked for a short time period at the time of writing since Jim is now on a business trip. When he returns, we will continue incorporating these changes into production which will then see usage by all members of the RIT community that uses SHED resources.
 
 Since SHED software projects are somewhat informal, there is little documentation on setting up for development and navigating the codebase too. However, the codebase wasn't too big for this to be an issue and Jim was accessible through Slack and in person which helped resolve any questions or issues I have had.
+
+![Working with Jim in T&E](/hfoss2025-blogs/assets/images/aarc10/jim_t_and_e.jpg)
+*Jim and me debugging hardware in the Textiles and Electronics room.*
 
 ## Conclusion
 Overall, it was a fun project to work on. I had the opportunity to work closely with a primary contributor of an open-source project and I know my contributions will directly impact the RIT community overall. I also hope to raise awareness that there are small open-source RIT projects that could benefit from even small contributions and they can be easier to work with in some cases compared to working with larger open-source projects which may have harder accessibility to primary contributors of larger projects and more bureacracy for getting changes through. I could potentially help Jim Heaney and the SHED further in the future, by helping them set up contributor guidelines and documentation to make contributing more accessible to other people. 
