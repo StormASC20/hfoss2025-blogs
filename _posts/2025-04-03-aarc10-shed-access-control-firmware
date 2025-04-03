@@ -8,8 +8,22 @@ categories:
 author: Aaron Chan
 ---
 
-# Introduction
+# Project Introduction
 
 For my contribution, I decided to help the RIT SHED Makerspace with their access control firmware. I decided to do this because I am a frequent user of the RIT SHED facilities as a member of RIT Launch Initiative. I saw an opportunity to help improve the custom devices the SHED uses to ensure only authorized and trained users operate the SHED's equipment.
 
-## What is this site?
+The project is currently maintained by SHED employees, but is open-sourced under a Creative Commons license. However, since it is lesser known that some of SHED's software (and hardware) is open-sourced, there is little outside attention given to it. The reason I knew about it was because I the person that mostly maintains these projects, Jim Heaney. Therefore, I thought it would also be a good opportunity to work with him towards improving the software since he mostly comes from a hardware background. After getting approval from my TA Adrian, I decided to start contributing with a massive overhaul to the access control firmware.
+
+## Issues Found
+Since Jim mainly specializes in hardware, there were several potential issues I identified before starting. The following include
+
+- Race Conditions
+- Delay Drift
+- Ungraceful Error Handling
+- Buffer Overflows
+
+## Fixes
+Thankfully, the file structure was organized enough to modify each file one a time for the most part. I went through each file individually, making changes as I saw fit. 
+
+## Community Interaction
+Unfortunately, due to lack of access to hardware I have been unable to personally test my changes on the hardware itself. However, part of the purpose of the assignment was to interact with a community and since this project doesn't really have many external contributors, I was able to work with Jim in person. This also allowed me to teach Jim new software techniques to incorporate into his future work as well.
