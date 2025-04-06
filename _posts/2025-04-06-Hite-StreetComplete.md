@@ -37,3 +37,6 @@ The screenshot seen here shows a few sentences that are not very clear. The orig
 The photo shown here shows another example of the FAQ answers not being worded quite right. The sentence shown here appeared to be nearly unintelligble. It took me five times as long to understand what this was trying to say then it did for me to rewrite the answer.
 
 ![issue3Fixed](/hfoss2025-blogs/blob/newBranch/assets/images/ah1034/Screenshot-2025-04-06-163349.png)
+
+# Conclusion
+While the StreetComplete docs still need work I have cleared up what were in my opinion the most blatant errors. I think more people will likely start working on the docs after the IOS version of the app drops (likely later this year). In my opinion the reason the docs had so many errors is because people were more focused on porting to IOS than keeping documentation up to date. 
