@@ -18,5 +18,6 @@ StreetComplete has a fairly simple way to track issues and proposed changes. How
 
 Since December 2023 it appears that most of the work on StreetComplete has been focused on producing an IOS version of StreetComplete. Because of all of this focus on producing an IOS app and whatever remaining effort on the program is going to focusing on the bug reports and feature requests there has been little to no work on updating the docs for StreetComplete.
 
+There are several spots in the wiki where a !(sentence)[hfoss2025-blogs/blob/newBranch/assets/images/ah1034/Screenshot-2025-04-06-144006.png] could use reworking to make it more readable or information was ![out of date](hfoss2025-blogs/blob/newBranch/assets/images/ah1034/Screenshot-2025-04-06-134647.png) and needed to be updated
 
 
