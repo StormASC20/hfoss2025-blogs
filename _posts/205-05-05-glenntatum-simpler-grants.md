@@ -111,7 +111,7 @@ For documentation, everything was stored inside the GitHub repository. I wish mo
 ```
 If you have any questions, the documentation could answer them. When I spoke to engineers at Nava, they said that most of this code was bootstrapped from an open-source template they have on their GitHub.
 
-![nava](glenn-nava.png)
+![nava](https://i.imgur.com/Syv3vc5.png)
 
 
 ### The Issue
@@ -126,7 +126,7 @@ When I picked issue [#3105](https://github.com/HHS/simpler-grants-gov/issues/310
 
 
 The first correspondence I made with issue [#3105](https://github.com/HHS/simpler-grants-gov/issues/3105#issuecomment-2712256647) was a small comment explaining a potential change that could be made. [In my comment linked here](https://github.com/HHS/simpler-grants-gov/issues/3105#issuecomment-2712256647), my primary objective in submitting this comment was to get the ball rolling in terms of creating conversations around which part of the codebase needed to be updated to address the issue. I also submitted a small [PR](https://github.com/GlennTatum/simpler-grants-gov/commit/c002df459bad9217807358e2db7dc7c6273a7ad4) as a supplement, so as a team, we could get a sense of which region of the codebase was aiming to be updated. All this PR did was place the metadata where it needed to be with minimal styling.
-![alt text](glenn-pr-1.png)
+![pr](https://i.imgur.com/M09sH2x.png)
 
 
 
@@ -135,7 +135,7 @@ After my PR, the maintainers linked to the simpler.grants.gov [Figma](https://ww
 I then sent a screenshot of the current state of the dev build to see if what I developed was what they were aiming for in terms of a feature.
 
 Another maintainer quickly stepped in and saw my PR, and they posted this comment:
-![alt text](glenn-comment-1.png)
+![alt text](https://i.imgur.com/4cR9Ie0.png)
 
 When Chris saw the PR, he assigned me to a new ticket [#4448](https://github.com/HHS/simpler-grants-gov/issues/4448)
 
@@ -149,7 +149,7 @@ Now that I was assigned to ticket [#4448](https://github.com/HHS/simpler-grants-
 Before making any changes, though, I asked a few questions about specifics. In this very long [comment](https://github.com/HHS/simpler-grants-gov/issues/4448#issuecomment-2776333962), due to some language inconsistencies between the Figma, the design team, and the developers, I was making sure that I was getting everything right.
 
 When Chris (The maintainer) saw my message he responded.
-![alt text](glenn-response.png)
+![chris responds to message](https://i.imgur.com/KbIB2ZB.png)
 
 Now that I've submitted my PR with the hopefully 🤞 correct changes. A review will come in soon to get the changes merged.
 
@@ -170,9 +170,9 @@ The only hurdle I ran into was git. The number of times I accidentally committed
 I think the reason I struggle with git is because it's not linear. Most of my experience with git has been to pull, commit, and push. But now I'm working on multiple features simultaneously; I lose that linearity of a workflow and now enter a tree-like plane of several important points of interest along my journey of making changes. I wish there were better "patterns" for git that are good to follow because as of now, I use it recklessly with disregard for future me, who will have to fiddle around with a merge editor and hope I remembered the exact line-by-line changes I made 3 days ago.
 
 
-![help me](glenn-git.png)
+![git failure](https://i.imgur.com/FQsHAOI.png)
 
-<img src="glenn-branches.png" alt="drawing" height="400"/>
+<img src="https://i.imgur.com/0fD7tT3.png" alt="drawing" height="400"/>
 
 Other than the hardship of dealing with the world's most widely used version control system. Developing new features with React and the USWDS was an enjoyable experience where I learned about the mechanics of Typescript, accessible design patterns, and how NextJS works internally.
 
