@@ -1,4 +1,17 @@
-# Improving image documentation for the Aseprite API
+---
+layout: post
+# If your post title is longer or more complicated
+# than can be represented in the filename, uncomment the following line
+# and specify a custom title
+title: "Improving image documentation for the Aseprite API"
+
+categories: 
+- Contribution
+
+# Enter your name below
+author: Nikki Murello
+---
+
 For my contribution I selected the community of Aseprite. Aseprite is an open source pixel art editor that I use on a daily basis. I picked this project since I've been using it as an art program for years and I'm very familiar with it's functions and community.
 
 ## Intro to the community
@@ -17,7 +30,7 @@ I recognized this issue as a simple first contribution, and with my new-found kn
 ## The contribution
 I quickly made a fork of the aseprite API repo and also cloned the entire Aseprite program repo to sift through when writing documentation. Since I'd never written any scripts in the Aseprite API I also learned some of the basics (and also learned and wrote LUA for the first time) so I could understand and write better examples. 
 
-The original issue discussed missing documentation specifically on the Image:flip function, but I noticed more aspects of the page was also blank so I decided to write more there too! I added descriptions for various other properties of the Image class and wrote some more examples.
+The original issue discussed missing documentation specifically on the `Image:flip()` function, but I noticed more aspects of the page was also blank so I decided to write more there too! I added descriptions for various other properties of the Image class and wrote some more examples. These include the `width` and `height` properties, as well as additional enumeration documentation.
 
 ### Roadblocks
 
